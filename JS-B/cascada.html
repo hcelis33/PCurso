@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .contenedor{
+        height: 300px;
+        width: 300px;
+        position: relative;
+        background-color: green;
+        margin: 0 auto;
+    }
+    
+    .cuadrito{
+        background-color: yellow;
+        height: 30px;
+        width: 30px;
+        text-align: center;
+       line-height: 0px;
+        position: absolute;
+        top: 135px;
+        left: 135px;
+    }
+    .cuadrito{
+        position: initial;
+        line-height: 30px;
+    }
+
+   
+
+    .contenedor2{
+        height: 300px;
+        width: 300px;
+        position: relative;
+        background-color: rgb(110, 173, 110);
+        margin: 0 auto;
+    }
+    .contenedor2 .cuadrito{
+        position:inherit;
+        line-height: 30px;
+    }
+</style>
+<body>
+    <section class="contenedor">
+
+        <div class="cuadrito">
+            <p>P</p>
+
+        </div>
+    </section>
+
+    <section class="contenedor2">
+
+        <div class="cuadrito">
+            <p>P</p>
+
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color: darkgreen;
+        }
+        p::before{
+            content: "😒🤳"
+        }
+        p::first-letter{
+            color: crimson;
+        }
+        p:hover{
+            color: blue;
+        }
+        div p:nth-child(2){
+            color: gold;
+        }
+        p::after{
+            content: "😜";
+        }
+
+    </style>
+</head>
+<body>
+    <p>Hola</p>
+    <div>
+        <p>Valor 1</p>
+        <p>Valor 2</p>
+        <p>Valor 3</p>
+    </div>
+</body>
+</html>
